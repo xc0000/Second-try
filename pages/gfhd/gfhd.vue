@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<!-- 吴子旭的第一次本地修改 -->
 		<u-row justify="space-between" customStyle="margin-bottom: 10px">
 			<u-col span="6">
 				<view style="padding: 20px;">
@@ -118,11 +119,11 @@
 				],
 				show: false,
 				fl: [{
-						name: '活动规则',
-					},
-					{
-						name: '排行榜',
-					}
+					name: '活动规则',
+				},
+				{
+					name: '排行榜',
+				}
 				],
 				current: 0,
 				activityid: '',
@@ -157,7 +158,7 @@
 				}
 			}
 		},
-		onLoad: function(option) { //option为object类型，会序列化上个页面传递的参数
+		onLoad: function (option) { //option为object类型，会序列化上个页面传递的参数
 			let that = this
 			console.log('这是当前活动的id')
 			console.log(option); //打印出上个页面传递的参数。
@@ -180,8 +181,8 @@
 					console.log(res.data[0])
 
 				},
-				fail: () => {},
-				complete: () => {}
+				fail: () => { },
+				complete: () => { }
 			});
 			this.getrank()
 
@@ -212,8 +213,8 @@
 						console.log(this.rank)
 
 					},
-					fail: () => {},
-					complete: () => {}
+					fail: () => { },
+					complete: () => { }
 				});
 			},
 			loadmore() {
