@@ -1,5 +1,6 @@
 <template>
 	<view style="margin: 2% 5% 2% 5%;">
+	//徐畅的本地第一次修改
 		<u-upload :fileList="fileList1" @afterRead="afterRead" @delete="deletePic" name="1" multiple :maxCount="10">
 		</u-upload>
 		<view>
