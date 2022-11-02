@@ -1,5 +1,6 @@
 <template>
 	<view>
+	//许刘莲的第一次本地修改
 		<view class="content-item">
 			<view style="width:100%;height:120px;background-color: #ffff55">
 
